@@ -1,7 +1,8 @@
 body {
   margin: 0px;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive, monospace, serif, open-sans, bastian, Helvetica,
+    sans-serif;
   min-width: 400px;
 }
 
@@ -9,17 +10,23 @@ input {
   padding: 10px 10px 10px 10px;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #5f9341;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #417293;
+  font-family: monospace, cursive, serif, open-sans, bastian, Helvetica,
+    sans-serif;
 }
 
 button {
-  /* background-color: #5f9341; */
+  /* background-color: #2595b1; */
   padding: 10px 20px;
   margin-top: 5px;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
   /* color: aliceblue; */
   font-weight: bold;
+  font-family: monospace, cursive, sans-serif, open-sans, Helvetica, serif,
+    bastian;
 }
 
 button:hover {
@@ -28,14 +35,14 @@ button:hover {
 
 .saveButton {
   color: white;
-  background-color: #5f9341;
+  background-color: #2595b1;
   border: none;
 }
 
 .deleteButton {
-  color: #5f9341;
+  color: #2595b1;
   background-color: white;
-  border: 1px solid #5f9341;
+  border: 1px solid #2595b1;
 }
 
 ul {
@@ -49,6 +56,6 @@ li {
 }
 
 li a {
-  color: #5f9341;
+  color: #2595b1;
   /* text-decoration: none; */
 }

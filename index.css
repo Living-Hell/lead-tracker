@@ -13,18 +13,29 @@ input {
 }
 
 button {
-  background-color: #5f9341;
+  /* background-color: #5f9341; */
   padding: 10px 20px;
   margin-top: 5px;
-  border: none;
   border-radius: 2px;
   cursor: pointer;
-  color: aliceblue;
+  /* color: aliceblue; */
   font-weight: bold;
 }
 
 button:hover {
   transform: scale(1.02);
+}
+
+.saveButton {
+  color: white;
+  background-color: #5f9341;
+  border: none;
+}
+
+.deleteButton {
+  color: #5f9341;
+  background-color: white;
+  border: 1px solid #5f9341;
 }
 
 ul {
